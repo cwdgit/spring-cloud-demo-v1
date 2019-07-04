@@ -24,7 +24,7 @@ eureka注册中心配置
 
 ```yaml
 server:
-  port: 8761 # 注册中心占用8080端口
+  port: 8761 # 注册中心占用8761端口
 eureka:
   instance:
     hostname: eureka-server

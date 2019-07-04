@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/eureka/
+spring:
+  application:
+    name: gateway
+server:
+  port: 8083
+zuul:
+  routes:
+    service0: /service/0/**
+    service1: /service/1/**
+
